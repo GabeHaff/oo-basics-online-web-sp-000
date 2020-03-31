@@ -1,6 +1,7 @@
 class Shoe 
   attr_accessor :color :size 
-def initialize
+def initialize(brand)
+  @brand=brand 
 
 def material=(material)
   @material=material
