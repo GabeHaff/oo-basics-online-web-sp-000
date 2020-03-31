@@ -18,3 +18,8 @@ end
 def condition 
   @condition 
 end 
+
+def cobble
+  puts "Shoe has been repaired!"
+@condition= "New"
+end 
