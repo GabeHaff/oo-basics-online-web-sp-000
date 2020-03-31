@@ -6,7 +6,7 @@ def material=(material)
 end 
 
 def material
-  @material 
+  @material
 end 
 
 def condition=(condition="used")
