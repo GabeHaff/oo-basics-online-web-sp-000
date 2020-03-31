@@ -3,6 +3,9 @@ class Shoe
 def initialize(brand)
   @brand=brand
 end 
+def brand=(brand="Nike")
+  @brand=brand
+end 
 
 def material=(material)
   @material=material
