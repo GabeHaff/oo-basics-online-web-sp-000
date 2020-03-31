@@ -1,5 +1,6 @@
 class Shoe 
-  attr_accessor :color 
+  attr_accessor :color :size 
+def initialize
 
 def material=(material)
   @material=material
